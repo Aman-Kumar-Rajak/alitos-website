@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    border-bottom: #b89c7d;
+}
+
+.navbar-brand {
+    font-family: 'Georgia', serif;
+    color: #b89c7d !important;
+}
+
+.nav-link {
+    color: #b89c7d !important;
+    margin: 0 10px;
+}
+
+.badge {
+    background-color: #b89c7d;
+    font-size: 12px;
+}
+
+.feature-icon {
+    color: #b89c7d;
+    font-size: 30px;
+}
+
+.feature-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.feature-desc {
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.collection-section {
+    padding: 60px 0;
+}
+
+
+.collection-section p {
+    color: #b89c7d;
+}
+
+.collection-title {
+    text-align: end;
+    color: #785340;
+}
+
+.hover-up {
+    position: relative;
+    cursor: pointer;
+}
+
+.hover-up img {
+    transition: transform 0.5s ease;
+}
+
+.hover-up img:hover {
+    transform: translateY(-10px);
+}
+
+h1 {
+    color: #b89c7d;
+}
+
+.image-section button {
+    width: 160px;
+    border: 1px solid transparent;
+    background-color: #b89c7d;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.image-section button:hover {
+    background-color: #b89c7d;
+    color: #785340;
+}
+
+.footer-logo {
+    font-family: 'Georgia', serif;
+    color: white;
+    background-color: #b89c7d;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    align-content: center;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+
+.bottom-section .hover-opacity {
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.hover-opacity:hover {
+    opacity: 0.7;
+}
+
+.bottom-section .footer-btn {
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 7px 16px;
+}
+
+.bottom-section .footer-btn:hover {
+    opacity: 0.7;
+}
+
+.bottom-section .footer-btn2 {
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #b89c7d;
+    border-radius: 8px;
+    padding: 7px 16px;
+}
+
+.bottom-section .footer-btn2:hover {
+    background-color: #785340;
+}
+
+.testimonial-section .left-btn {
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+.slider-area {
+    height: 80vh;
+    background: gray;
+    padding: 50px 0;
+    position: relative;
+    margin: 120px 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-color: #333;
+}
+
+.img-area {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: static;
+    padding-bottom: 15px;
+    padding-top: 0;
+}
+
+.carousel-caption h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color: #333;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+
+}
+
