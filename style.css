@@ -130,24 +130,14 @@ h1 {
     background-color: #785340;
 }
 
-.testimonial-section .left-btn {
-    border: 1px solid black;
-    padding: 20px;
-
-}
 
 .slider-area {
     height: 80vh;
     background: gray;
     padding: 50px 0;
-    position: relative;
     margin: 120px 0;
 }
 
-.carousel-control.left,
-.carousel-control.right {
-    background-color: #333;
-}
 
 .img-area {
     width: 100px;
@@ -164,13 +154,13 @@ h1 {
 
 .carousel-caption {
     position: static;
-    padding-bottom: 15px;
+    padding-bottom: 60px;
     padding-top: 0;
 }
 
 .carousel-caption h3 {
     font-size: 26px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     margin-top: 25px;
     color: #333;
 }
@@ -184,7 +174,6 @@ h1 {
 }
 
 .carousel-indicators {
-    bottom: -50px;
-
+        bottom: -100px;
 }
 
